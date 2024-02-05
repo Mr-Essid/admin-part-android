@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pointage-application</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_employer">EmployerActivity</string>
+    <string name="title_activity_update_employer">UpdateEmployerActivity</string>
+    <string name="title_activity_add_employer">AddEmployer</string>
+    <string name="title_activity_admin_settings">AdminSettingsActivity</string>
+    <string name="title_activity_history_of_employer">HistoryOfEmployer</string>
+</resources>

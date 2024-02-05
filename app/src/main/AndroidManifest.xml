@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pointageapplication"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".HistoryOfEmployer"
+            android:exported="false"
+            android:label="@string/title_activity_history_of_employer"
+            android:theme="@style/Theme.Pointageapplication" />
+        <activity
+            android:name=".AdminSettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_settings"
+            android:theme="@style/Theme.Pointageapplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AddEmployerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_employer"
+            android:theme="@style/Theme.Pointageapplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".UpdateEmployerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_update_employer"
+            android:theme="@style/Theme.Pointageapplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".EmployerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_employer"
+            android:theme="@style/Theme.Pointageapplication" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.Pointageapplication" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.Pointageapplication" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Pointageapplication"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
